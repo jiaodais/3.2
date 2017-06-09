@@ -413,9 +413,9 @@
               <FilePath>.\UART.c</FilePath>
             </File>
             <File>
-              <FileName>adct.c</FileName>
+              <FileName>ADCT.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\adct.c</FilePath>
+              <FilePath>.\ADCT.c</FilePath>
             </File>
           </Files>
         </Group>

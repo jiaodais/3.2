@@ -36,7 +36,7 @@
 				uint32_t ulADCBuf;
 			  uint32_t ulADCData;
 				uint32_t t;
-				
+					float temp;
 				
 
 void ADC_Init(void)
@@ -62,7 +62,7 @@ float   CaculTwoPoint(float   x1, float y1, float x2, float y2, float x)
 
 float  ADC_read()
 {
-	float temp;
+
 	uint32_t tempBuf1;
 	uint32_t tempBuf2;
 	uint32_t real_temp;
@@ -128,3 +128,22 @@ float  ADC_read()
 //--------------------------------------------------------------------------------------------------------------------------------
 }
 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

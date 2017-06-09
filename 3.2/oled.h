@@ -17,4 +17,5 @@ void OLED_P6x8Str(uint8_t x,uint8_t y,uint8_t ch[]);
 void OLED_P14x16Str(uint8_t x,uint8_t y,uint8_t ch[]);
 void OLED_Print(uint8_t x, uint8_t y, uint8_t ch[]);
 void OLED_PrintNum(uint8_t x,uint8_t y,uint8_t n);
+void Draw_BMP(uint8_t x0,uint8_t y0,uint8_t x1,uint8_t y1,uint8_t bmp[]);
 #endif

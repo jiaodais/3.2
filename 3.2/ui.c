@@ -7,6 +7,7 @@
 #include "ui.h"
 #include "ADC.h"
 #include "UART.h"
+#include "ADCT.h"
 extern int  	key_value  ;
 extern  float low_temp ;
 extern  float high_temp ;
@@ -15,6 +16,7 @@ extern	int   lastlow_temp ;
 extern	int   lasthigh_temp ; 
 extern float low_temp;
 extern float high_temp;
+extern uint8_t xiaoren[];
 uint8_t s=30;
 uint8_t x=20;
 uint8_t Arrow = 2,	chonum, scrnum = 0;
@@ -126,6 +128,7 @@ uint8_t  UI(void)
 							{
 								
 							 ADC_read();
+								ALLtemp_setting();
 								
 									OLED_PrintNum(30,2,t);
 							
@@ -148,10 +151,63 @@ uint8_t  UI(void)
       case 12:break;
       case 13:break;
       case 14:break;
+							
+							
+							
+							
+				case 21:UART_SendStr("lowtemp:");
+							lastlow_temp=low_temp;
+							while(key_value != 9)
+							{
+								lowtemp_setting();
+								if(key_value == 9)
+								{
+									lastlow_temp=low_temp;
+									OLED_CLS();
+								}	
+							}
+						  break;
+			case 22:UART_SendStr("higetemp:");
+							lasthigh_temp=high_temp;
+							while(key_value != 9)
+							{
+								hightemp_setting();
+								if(key_value == 9)
+								{
+						
+									lasthigh_temp=high_temp;
+									OLED_CLS();
+								}	
+							}
+							 break;
+			case 23:
+							break;
+			case 31: while(key_value != 9)
+							{
+							
+							
+								Draw_BMP(15,0,65,5,xiaoren);
+									Draw_BMP(63,0,113,5,xiaoren);
+					
+								
+								
+								if(key_value == 9)
+											{
+												OLED_CLS();
+											}
+							}
+							
+							 break;
+							
+							case 33:
+								break;
+
     }
 return 0;
 	
-}	
+}				
+							
+							
+			
 
-								
 							

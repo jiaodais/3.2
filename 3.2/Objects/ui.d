@@ -13,3 +13,4 @@
 .\objects\ui.o: UART.h
 .\objects\ui.o: ui.h
 .\objects\ui.o: ADC.h
+.\objects\ui.o: ADCT.h
