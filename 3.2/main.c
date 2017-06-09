@@ -30,11 +30,11 @@ int main()
 	
 	while(1)
 	{
-	  //Draw_BMP(0,0,127,7, blocklogo);
-		UI();
-		// ADC_read();
+
+	 UI();
 		
 		
+		////////////
 		
 	}
 	
