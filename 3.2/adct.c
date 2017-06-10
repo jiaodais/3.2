@@ -3,7 +3,7 @@
 #include "oled.h"
 #include "key.h"
 #include "ADC.h"
-  float low_temp=10;
+  float low_temp=	10;
 	float high_temp =80;
   int lastlow_temp =0;
 	int lasthigh_temp =0; 
@@ -30,7 +30,7 @@ void lowtemp_setting(void)
 		lastlow_temp --;
 		key_value =0;
 	}
-		if(lastlow_temp <=10)lastlow_temp = 10;
+		if(lastlow_temp <=10)lastlow_temp =10;
 	low_temp=lastlow_temp;
 	
 }

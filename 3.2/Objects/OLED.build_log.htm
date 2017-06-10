@@ -27,6 +27,12 @@ Project File Date:  06/09/2017
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Rebuild target 'Target 1'
+compiling main.c...
+UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
+  void UART_Init();
+main.c(29): warning:  #223-D: function "OLED_Init" declared implicitly
+  	OLED_Init();
+main.c: 2 warnings, 0 errors
 compiling key.c...
 compiling oled.c...
 UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
@@ -34,12 +40,6 @@ UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
 oled.c(848): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
   	sprintf(m,"%d",n);
 oled.c: 2 warnings, 0 errors
-compiling main.c...
-UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
-  void UART_Init();
-main.c(29): warning:  #223-D: function "OLED_Init" declared implicitly
-  	OLED_Init();
-main.c: 2 warnings, 0 errors
 compiling delay.c...
 delay.c(5): warning:  #177-D: variable "t" was declared but never referenced
   	int t=0;
@@ -57,22 +57,22 @@ ADC.c: 4 warnings, 0 errors
 compiling ui.c...
 UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
   void UART_Init();
-ui.c(138): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+ui.c(140): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
   									OLED_P6x8Str(30,2,buff);
-ui.c(143): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+ui.c(145): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
   								OLED_P6x8Str(30,5,buff);
-ui.c(212): warning:  #1-D: last line of file ends without a newline
+ui.c(214): warning:  #1-D: last line of file ends without a newline
   							
 ui.c: 4 warnings, 0 errors
 assembling startup_LPC11xx.s...
-compiling UART.c...
 compiling ADCT.c...
 UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
   void UART_Init();
 ADCT.c: 1 warning, 0 errors
+compiling UART.c...
 compiling system_LPC11xx.c...
 linking...
-Program Size: Code=11204 RO-data=2840 RW-data=5188 ZI-data=652  
+Program Size: Code=11304 RO-data=2840 RW-data=5188 ZI-data=652  
 ".\Objects\OLED.axf" - 0 Error(s), 14 Warning(s).
 
 <h2>Software Packages used:</h2>
@@ -101,7 +101,7 @@ Package Vendor: Keil
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\ARM\startup_LPC11xx.s
       Source file:   Device\Source\system_LPC11xx.c
-Build Time Elapsed:  00:00:06
+Build Time Elapsed:  00:00:07
 </pre>
 </body>
 </html>

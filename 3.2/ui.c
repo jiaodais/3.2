@@ -128,8 +128,10 @@ uint8_t  UI(void)
 			        OLED_Print(5, 3, "Now Frh" );
 			        while(key_value != 9)
 							{
+								
+								
 								temperature1 = ADC_read();
-							
+							if (temperature1 !=0){
 								sprintf(buff,"%.2f",temperature1);
 								OLED_Print(70,3,"     ");
 								OLED_Print(70,4,"       ");
@@ -143,7 +145,7 @@ uint8_t  UI(void)
 								OLED_P6x8Str(30,5,buff);
 								OLED_P6x8Str(60,2,"C'");
 								OLED_P6x8Str(60,5,"F'");
-								
+							}
 										
 										
 										if(key_value == 9)

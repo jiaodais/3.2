@@ -36,7 +36,7 @@
 				uint32_t ulADCBuf;
 			  uint32_t ulADCData;
 				uint32_t t;
-					float temp;
+				float temp;
 				
 
 void ADC_Init(void)
