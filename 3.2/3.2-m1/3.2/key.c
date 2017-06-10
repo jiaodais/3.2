@@ -9,8 +9,7 @@ void key_init()
 	LPC_GPIO3->IE = 0x1f; // 允许P3.0-5引脚上的中断
   LPC_GPIO3->IS = 0xe0; // 设置P3.0-5引脚为边沿触发
   LPC_GPIO3->IEV =0xe0; // 设置P3.0-5引脚为下降沿触发
-//	LPC_GPIO3->IS = 0x1f; // 设置P3.0-5引脚为电平触发
-//	LPC_GPIO3->IEV =0xe0; // 设置P3.0-5引脚为低电平触发
+
   NVIC_EnableIRQ(EINT3_IRQn); // 打开GPIO3中断
 }
 

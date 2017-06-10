@@ -129,6 +129,7 @@ uint8_t  UI(void)
 			        while(key_value != 9)
 							{
 								temperature1 = ADC_read();
+							
 								sprintf(buff,"%.2f",temperature1);
 								OLED_Print(70,3,"     ");
 								OLED_Print(70,4,"       ");
@@ -164,12 +165,12 @@ uint8_t  UI(void)
 								lowtemp_setting();
 								if(key_value == 9)
 								{
-									lastlow_temp=low_temp;
+								low_temp=lastlow_temp;
 									OLED_CLS();
 								}	
 							}
 						  break;
-			case 22:UART_SendStr("higetemp:");
+			case 22:
 							lasthigh_temp=high_temp;
 							while(key_value != 9)
 							{
@@ -177,7 +178,7 @@ uint8_t  UI(void)
 								if(key_value == 9)
 								{
 						
-									lasthigh_temp=high_temp;
+								high_temp=lasthigh_temp;
 									OLED_CLS();
 								}	
 							}
@@ -208,8 +209,4 @@ uint8_t  UI(void)
 return 0;
 	
 }				
-							
-							
-			
-
 							
