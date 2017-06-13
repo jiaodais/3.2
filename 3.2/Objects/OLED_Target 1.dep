@@ -1,47 +1,47 @@
 Dependencies for Project 'OLED', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x593B6EF4)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+F (.\main.c)(0x593B6EF4)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-D__UVISION_VERSION="520" -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
 I (oled.h)(0x593A8BB9)
 I (UART.h)(0x593A5C70)
 I (delay.h)(0x593A5C70)
 I (ui.h)(0x593A5C70)
 I (key.h)(0x593A5C70)
 I (ADC.h)(0x593A8420)
-F (.\oled.c)(0x593A8BB8)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+F (.\oled.c)(0x593A8BB8)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-D__UVISION_VERSION="520" -D_RTE_-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
 I (oled.h)(0x593A8BB9)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.H)(0x4FF4FDF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.H)(0x4FF4FDF8)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
 I (UART.h)(0x593A5C70)
 I (delay.h)(0x593A5C70)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-F (.\key.c)(0x593AB8C4)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\string.h)(0x56FE42DE)
+F (.\key.c)(0x593AB8C4)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-D__UVISION_VERSION="520" -D_RTE_-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
 I (KEY.H)(0x593A5C70)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11XX.H)(0x4FF4FDF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11XX.H)(0x4FF4FDF8)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
 I (delay.h)(0x593A5C70)
-F (.\ui.c)(0x593BAFA0)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\ui.o --omf_browse .\objects\ui.crf --depend .\objects\ui.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+F (.\ui.c)(0x593FE3D5)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-D__UVISION_VERSION="520" -D_RTE_-o .\objects\ui.o --omf_browse .\objects\ui.crf --depend .\objects\ui.d)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\string.h)(0x56FE42DE)
 I (KEY.h)(0x593A5C70)
 I (delay.h)(0x593A5C70)
 I (oled.h)(0x593A8BB9)
@@ -49,53 +49,53 @@ I (UART.h)(0x593A5C70)
 I (ui.h)(0x593A5C70)
 I (ADC.h)(0x593A8420)
 I (ADCT.h)(0x593A5C70)
-F (.\delay.c)(0x593B6E62)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+F (.\delay.c)(0x593B6E62)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-D__UVISION_VERSION="520" -D_RTE_-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
 I (delay.h)(0x593A5C70)
-F (.\ADC.c)(0x593BADAC)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+F (.\ADC.c)(0x593BADAC)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-D__UVISION_VERSION="520" -D_RTE_-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
 I (UART.h)(0x593A5C70)
 I (delay.h)(0x593A5C70)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
-F (.\UART.c)(0x593BA8B3)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\string.h)(0x56FE42DE)
+F (.\UART.c)(0x593BA8B3)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-D__UVISION_VERSION="520" -D_RTE_-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\string.h)(0x56FE42DE)
 I (delay.h)(0x593A5C70)
-F (.\ADCT.c)(0x593BA72E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\adct.o --omf_browse .\objects\adct.crf --depend .\objects\adct.d)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+F (.\ADCT.c)(0x593FE2EF)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-D__UVISION_VERSION="520" -D_RTE_-o .\objects\adct.o --omf_browse .\objects\adct.crf --depend .\objects\adct.d)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
 I (ADCT.h)(0x593A5C70)
 I (oled.h)(0x593A8BB9)
 I (UART.h)(0x593A5C70)
 I (delay.h)(0x593A5C70)
 I (key.h)(0x593A5C70)
 I (ADC.h)(0x593A8420)
-F (RTE\Device\LPC1114FBD48_301\startup_LPC11xx.s)(0x593A5C70)(--cpu Cortex-M0+ -g --apcs=interwork -I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc11xx.lst --xref -o .\objects\startup_lpc11xx.o --depend .\objects\startup_lpc11xx.d)
-F (RTE\Device\LPC1114FBD48_301\system_LPC11xx.c)(0x593A5C70)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\Administrator\Desktop\3.2-m1\3.2\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\objects\system_lpc11xx.o --omf_browse .\objects\system_lpc11xx.crf --depend .\objects\system_lpc11xx.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
-I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
-I (C:\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+F (RTE\Device\LPC1114FBD48_301\startup_LPC11xx.s)(0x593A5C70)(--cpu Cortex-M0+ -g --apcs=interwork -I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc11xx.lst --xref -o .\objects\startup_lpc11xx.o --depend .\objects\startup_lpc11xx.d)
+F (RTE\Device\LPC1114FBD48_301\system_LPC11xx.c)(0x593A5C70)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections-I C:\Users\changyou\Desktop\3.3\3.2\RTE-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include"-I "Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-D__UVISION_VERSION="520" -D_RTE_-o .\objects\system_lpc11xx.o --omf_browse .\objects\system_lpc11xx.crf --depend .\objects\system_lpc11xx.d)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm0.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D7BCDA)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB0E6C)
+I (Z:\Dan pian ji  anzhuang weizhi\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
