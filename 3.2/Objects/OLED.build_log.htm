@@ -40,10 +40,6 @@ UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
 oled.c(848): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
   	sprintf(m,"%d",n);
 oled.c: 2 warnings, 0 errors
-compiling delay.c...
-delay.c(5): warning:  #177-D: variable "t" was declared but never referenced
-  	int t=0;
-delay.c: 1 warning, 0 errors
 compiling ui.c...
 UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
   void UART_Init();
@@ -54,6 +50,10 @@ ui.c(145): warning:  #167-D: argument of type "char *" is incompatible with para
 ui.c(214): warning:  #1-D: last line of file ends without a newline
   							
 ui.c: 4 warnings, 0 errors
+compiling delay.c...
+delay.c(5): warning:  #177-D: variable "t" was declared but never referenced
+  	int t=0;
+delay.c: 1 warning, 0 errors
 compiling ADC.c...
 UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
   void UART_Init();
@@ -64,12 +64,12 @@ ADC.c(66): warning:  #550-D: variable "tempBuf1" was set but never used
 ADC.c(67): warning:  #550-D: variable "tempBuf2" was set but never used
   	uint32_t tempBuf2;
 ADC.c: 4 warnings, 0 errors
-assembling startup_LPC11xx.s...
 compiling UART.c...
 compiling ADCT.c...
 UART.h(5): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
   void UART_Init();
 ADCT.c: 1 warning, 0 errors
+assembling startup_LPC11xx.s...
 compiling system_LPC11xx.c...
 linking...
 Program Size: Code=11304 RO-data=2840 RW-data=5188 ZI-data=652  
@@ -99,9 +99,9 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.0.0
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\system_LPC11xx.c
       Source file:   Device\Source\ARM\startup_LPC11xx.s
-Build Time Elapsed:  00:00:06
+      Source file:   Device\Source\system_LPC11xx.c
+Build Time Elapsed:  00:00:05
 </pre>
 </body>
 </html>
